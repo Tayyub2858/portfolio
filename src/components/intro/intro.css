@@ -1,0 +1,115 @@
+.i-left button {
+    margin-right: 40px;
+    margin-top: 30px;
+    border-radius: 35px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+    background: linear-gradient(180deg , #fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(251,161,40,0.42);
+}
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+.i-left{
+    width: 50%;
+    display: flex;
+    position: relative;
+    /* flex: 1; */
+    flex-direction: column;
+}
+.i-name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.i-name :nth-child(1){
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name :nth-child(2)
+{
+    color: orange;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name :nth-child(3){
+    font-weight: 100px;
+    font-size: 20px;
+    color: gray;
+    margin-top: 10px;
+}
+.i-button{
+    width: 8rem;
+    height: 2rem;
+    margin-left: 100px;
+    /* margin-top: 10px; */
+    /* display: block; */
+    text-align: center;
+}
+.i-icons{
+    display: flex;
+    margin-top: 50px;
+    gap: 5rem;
+}
+.i-icons{
+    transform: scale(0.5);
+}
+.i-icons:hover{
+    cursor: pointer;
+}
+
+/* right side desgin for the  */
+.i-right{
+   position: relative;
+   flex: 1;
+}
+.i-right>*{
+
+    position: absolute;
+    z-index: -1;
+}
+.i-right >:nth-child(1){
+    transform: scale(1.);
+    top: -15%;
+    top: -9%;
+}
+.i-right:nth-child(2){
+    top: -5.6%;
+    transform: scale(0.70);
+    left: -0rem;
+    /* position: absolute; */
+}
+.i-right:nth-child(3){
+    transform: scale(1.4);
+    /* position: absolute; */
+    left: 10px;
+    top: 10px;
+}
+.boy-img{
+    width: 50%;
+    position: absolute;
+    top: -200px;
+    left: 100px;
+    border-radius: 50px;
+}
+.glassmoji{
+    left: -35%;
+    top: -10%;
+}
+.blur{
+    width: 22rem;
+    height:14rem ;
+    position: absolute;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(72px);
+    z-index: -9;
+    top: 18%;
+    left: 56%;
+}
